@@ -1,0 +1,10 @@
+.pieds-img{
+    max-width: 10rem;
+}
+
+.incubated{
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}

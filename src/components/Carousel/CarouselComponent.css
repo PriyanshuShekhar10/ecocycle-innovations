@@ -1,0 +1,10 @@
+.carousel-img {
+    height: 400px;
+    /* Set the height you want for all images */
+    object-fit: cover;
+    /* Ensures the image covers the entire area */
+}
+
+.carousel_container{
+    margin: 2rem 0rem;
+}
