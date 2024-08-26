@@ -1,33 +1,47 @@
+import { useRef } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./Navbar.module.css";
 
-export default function Navbar() {
-  return (
-    <div className={styles.container}>
-      <nav className={styles.nav}>
-        <label htmlFor="" className={styles.logo}>
-          Logo
-        </label>
+function Navbar() {
+  const navRef = useRef();
 
-        <ul className={styles.navItems}>
-          <li>
-            <a className={styles.navLink} href="#">
-              About Us
-            </a>
-            <a className={styles.navLink} href="#">
-              Our Network
-            </a>
-            <a className={styles.navLink} href="#">
-              Blog
-            </a>
-            <a className={styles.navLink} href="#">
-              Contact
-            </a>
-            <a className={styles.navLink} href="#">
-              Home
-            </a>
-          </li>
-        </ul>
+  const showNavbar = () => {
+    navRef.current.classList.toggle(styles.responsive_nav);
+  };
+
+  return (
+    <header className={styles.header}>
+      <h3>LOGO</h3>
+      <nav ref={navRef} className={styles.nav}>
+        <a href="/#" className={styles.navLink}>
+          Home
+        </a>
+        <a href="/#" className={styles.navLink}>
+          About
+        </a>
+        <a href="/#" className={styles.navLink}>
+          Our Network
+        </a>
+        <a href="/#" className={styles.navLink}>
+          Blog
+        </a>
+        <a href="/#" className={styles.navLink}>
+          Contact
+        </a>
+        {
+          <button
+            className={`${styles.navBtn} ${styles.navCloseBtn}`}
+            onClick={showNavbar}
+          >
+            <FaTimes />
+          </button>
+        }
       </nav>
-    </div>
+      <button className={styles.navBtn} onClick={showNavbar}>
+        <FaBars />
+      </button>
+    </header>
   );
 }
+
+export default Navbar;

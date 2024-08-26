@@ -1,9 +1,12 @@
 import "./App.css";
 import BelowFooter from "./components/BelowFooter/BelowFooter";
-import CarouselComponent from "./components/Carousel/CarouselComponent";
+import EcoPromo from "./components/EcoPromo";
 import Footer from "./components/Footer/Footer";
+import GreenBagPromo from "./components/GreenBagPromo";
+import LogoCarousel from "./components/LogoCarousel";
 import Navbar from "./components/Navbar";
-import Tile from "./components/Tile/Tile";
+import StatsCards from "./components/StatsCards";
+import Subfooter from "./components/Subfooter";
 
 const MainSection = () => {
   return (
@@ -20,12 +23,14 @@ const App = () => {
   return (
     <>
       <Navbar />
+      <GreenBagPromo />
       {/* <Header /> */}
-      <CarouselComponent />
-      <MainSection />
-      <Tile />
+      <EcoPromo />
+      <StatsCards />
+      <LogoCarousel />
       <Footer />
       <BelowFooter />
+      <Subfooter />
     </>
   );
 };
