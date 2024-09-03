@@ -4,45 +4,40 @@ const StatsCards = () => {
   return (
     <div className={styles.cardsContainer}>
       <div className={styles.card}>
-        <h3>Emotional Connect</h3>
-        <h2>
-          72% <span>people</span>
-        </h2>
+        <h3>3D Printing Filaments</h3>
         <p>
-          Since Indian consumers are realizing the impact of environmental
-          issues and are concerned about their health & safety, 72% Indian
-          consumers say that they share emotional connection and feel happy with
-          products & companies that perceive sustainability through Eco-friendly
-          initiatives.
+          Our eco-friendly 3D printing filaments are crafted from 100% recycled
+          plastics, offering exceptional performance and durability. Ideal for
+          prototyping, production, and design, these filaments meet the needs of
+          manufacturers seeking sustainable alternatives without compromising
+          quality. Custom solutions are available to suit specific industrial
+          requirements.
         </p>
-        <button className={styles.ctaButton}>Get Started</button>
       </div>
 
       <div className={`${styles.card} ${styles.highlightCard}`}>
-        <h3>Purchasing Pattern</h3>
-        <h2>
-          79% <span>people</span>
-        </h2>
+        <h3>Sustainability and Recycling Process</h3>
         <p>
-          New consumers purchasing pattern is almost 79% consumers are changing
-          their purchase preference based on social and environmental impact as
-          per the study report by Capgemini Research Institute.
+          At Ecocycle Innovations, we utilize advanced recycling technologies to
+          transform post-consumer and post-industrial plastic waste into
+          high-performance materials. Our closed-loop process ensures minimal
+          waste, contributing to a sustainable manufacturing ecosystem. By
+          reducing plastic waste and lowering carbon emissions, we help
+          businesses achieve their environmental goals while maintaining product
+          excellence.
         </p>
-        <button className={styles.ctaButton}>Get Started</button>
       </div>
 
       <div className={styles.card}>
-        <h3>Eco-friendly</h3>
-        <h2>
-          88% <span>per month</span>
-        </h2>
+        <h3>Partnerships and Custom Solutions</h3>
         <p>
-          88% consumers in India prefer Eco-friendly initiatives due to health
-          and safety concerns, businesses can build a great brand recall in the
-          market. As a counterpart 60% consumers have actually stopped
-          purchasing from brands which do not support green.
+          Partner with Ecocycle Innovations for tailored material solutions
+          across industries such as manufacturing, packaging, automotive, and
+          textiles. We provide expert guidance on integrating recycled materials
+          into your production processes, ensuring that your products meet both
+          sustainability and quality standards. Our collaborative approach helps
+          businesses transition to more sustainable practices efficiently.
         </p>
-        <button className={styles.ctaButton}>Get Started</button>
       </div>
     </div>
   );

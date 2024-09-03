@@ -3,11 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 :global(*) {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
     font-family: "Titillium Web", sans-serif;
 }
+/* Navbar.module.css */
 
 :root {
     --mainColor: #ffffff;
@@ -15,6 +13,7 @@
     --secondaryColor: #09ff00;
     --textColor: #000000;
 }
+
 .header {
     display: flex;
     align-items: center;
