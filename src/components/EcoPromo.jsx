@@ -8,21 +8,23 @@ const EcoPromo = () => {
         <img src={greenBagImage} alt="Greeny Bags" className={styles.image} />
       </div>
       <div className={styles.textSection}>
-        <h1 className={styles.heading}>
-          Go Green with Bio Reform and Boost your Business
-        </h1>
-        <p className={styles.paragraph}>
-          Customers consider green products and companies supporting green
-          initiatives to be of superior quality compared to companies that
-          aren’t marketed as green.
-        </p>
-        <p className={styles.paragraph}>
-          Businesses can engage their customers through green marketing
-          initiatives which is relatively a new concept. They can encourage
-          their customers to use their products which are more environmentally
-          friendly.
-        </p>
-        <button className={styles.button}>Get Started</button>
+        <h1 className={styles.heading}>Key Highlights:</h1>
+        <p className={styles.paragraph}></p>
+        <ul className={styles.paragraph}>
+          <li>
+            Sustainable Materials: Advanced products derived from recycled
+            plastics.
+          </li>
+          <li>
+            Innovative Technology: Leveraging cutting-edge recycling processes
+            for durable manufacturing materials.
+          </li>
+          <li>
+            Eco-Efficient: Lowering your carbon footprint with premium,
+            eco-friendly alternatives.
+          </li>
+        </ul>
+        <button className={styles.button}> Partner With Us</button>
       </div>
     </section>
   );
