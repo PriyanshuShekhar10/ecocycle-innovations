@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Modal from "react-modal";
 import styles from "./Navbar.module.css";
+import Logopic from "../assets/Logo.jpg"
 
 // Set the root element for the modal
 Modal.setAppElement("#root");
@@ -19,22 +20,10 @@ function Navbar() {
 
   return (
     <header className={styles.header}>
-      <h3>LOGO</h3>
+      <img src={Logopic} alt="Logo" className={styles.logo} />
       <nav ref={navRef} className={styles.nav}>
-        <a href="/#" className={styles.navLink}>
-          Home
-        </a>
         <a href="/#" className={styles.navLink} onClick={openModal}>
           About
-        </a>
-        <a href="/#" className={styles.navLink}>
-          Our Network
-        </a>
-        <a href="/#" className={styles.navLink}>
-          Blog
-        </a>
-        <a href="/#" className={styles.navLink}>
-          Contact
         </a>
         <button
           className={`${styles.navBtn} ${styles.navCloseBtn}`}

@@ -13,7 +13,7 @@ const EcoPromo = () => {
         <ul className={styles.paragraph}>
           <li>
             Sustainable Materials: Advanced products derived from recycled
-            plastics.
+            materials.
           </li>
           <li>
             Innovative Technology: Leveraging cutting-edge recycling processes

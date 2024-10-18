@@ -1,21 +1,19 @@
 import styles from "./GreenBagPromo.module.css";
-import greenBagImage from "../assets/greenbag.png"; // Update with the correct path
+import frontpageImage from "../assets/frontpage1.png"; // Update with the correct path
 
 const GreenBagPromo = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1>Empowering Sustainable Manufacturing with Recycled Plastics</h1>
+        <h1>Empowering Sustainable Manufacturing with Recycled Materials</h1>
         <p>
-          Ecocycle Innovations partners with businesses to deliver high-quality
-          3D printing filaments and industrial threads made from recycled
-          plastics—driving sustainable solutions and reducing environmental
-          impact.
+        Ecocycle Innovations transforms waste materials into eco-friendly products, 
+        focusing on sustainability and circular economy solutions for a greener future.
         </p>
         <button className={styles.ctaButton}>Get Started</button>
       </div>
       <div className={styles.imageContainer}>
-        <img src={greenBagImage} alt="Greeny Bags" className={styles.image} />
+        <img src={frontpageImage} alt="Greeny Bags" className={styles.image} />
       </div>
     </section>
   );

@@ -1,14 +1,12 @@
 .subfooter-container{
     margin-bottom: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pieds-img{
     max-width: 10rem;
 
+
 }
 
-.incubated{
-    display:flex;
-    gap:20px;
-    justify-content: center;
-    align-items: center;
-}

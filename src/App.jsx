@@ -3,7 +3,6 @@ import BelowFooter from "./components/BelowFooter/BelowFooter";
 import EcoPromo from "./components/EcoPromo";
 import Footer from "./components/Footer/Footer";
 import GreenBagPromo from "./components/GreenBagPromo";
-import LogoCarousel from "./components/LogoCarousel";
 import Navbar from "./components/Navbar";
 import StatsCards from "./components/StatsCards";
 import Subfooter from "./components/Subfooter";
@@ -27,9 +26,8 @@ const App = () => {
       {/* <Header /> */}
       <EcoPromo />
       <StatsCards />
-      <LogoCarousel />
-      <Footer />
       <BelowFooter />
+      <Footer />
       <Subfooter />
     </>
   );
