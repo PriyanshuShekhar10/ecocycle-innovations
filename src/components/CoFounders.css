@@ -1,0 +1,64 @@
+.image-container {
+    margin-bottom: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+  }
+  
+  .image-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tribeni-roy,
+  .manoj-nikam {
+    width: 14rem;
+    height: 18rem;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  
+  .name-label {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+  }
+  
+  .cofond {
+    text-align: center;
+    padding: 1.5rem;
+    
+  }
+  
+  .cofond h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .image-container {
+      gap: 1.5rem;
+      margin-bottom: 2.5rem;
+    }
+  
+    .tribeni-roy,
+    .manoj-nikam {
+      width: 8rem;
+      height: 8rem;
+    }
+  
+    .cofond h1 {
+      font-size: 2rem;
+    }
+  
+    .name-label {
+      font-size: 0.9rem;
+    }
+  }
+  

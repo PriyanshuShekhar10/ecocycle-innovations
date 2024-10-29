@@ -6,6 +6,8 @@ import GreenBagPromo from "./components/GreenBagPromo";
 import Navbar from "./components/Navbar";
 import StatsCards from "./components/StatsCards";
 import Subfooter from "./components/Subfooter";
+import CoFounder from "./components/CoFounders";
+
 
 const MainSection = () => {
   return (
@@ -26,6 +28,7 @@ const App = () => {
       {/* <Header /> */}
       <EcoPromo />
       <StatsCards />
+      <CoFounder />
       <BelowFooter />
       <Footer />
       <Subfooter />
