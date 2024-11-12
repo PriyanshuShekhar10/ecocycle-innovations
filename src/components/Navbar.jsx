@@ -2,7 +2,7 @@ import { useRef, useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Modal from "react-modal";
 import styles from "./Navbar.module.css";
-import Logopic from "../assets/Logo.jpg"
+import Logopic from "../assets/Logo_ei.png"
 
 // Set the root element for the modal
 Modal.setAppElement("#root");
